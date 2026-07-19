@@ -30,7 +30,19 @@ class Program
                     break;
                 case 2:
                     Console.WriteLine("Has seleccionado Resta.");
+                    Console.WriteLine("=== RESTA ===");
+
+                    Console.Write("Ingrese el primer número: ");
+                    double num1 = double.Parse(Console.ReadLine());
+
+                    Console.Write("Ingrese el segundo número: ");
+                    double num2 = double.Parse(Console.ReadLine());
+
+                    double resultado = num1 - num2;
+
+                    Console.WriteLine($"Resultado: {num1} - {num2} = {resultado}");
                     break;
+
                 case 3:
                     Console.WriteLine("Has seleccionado Multiplicación.");
                     break;
